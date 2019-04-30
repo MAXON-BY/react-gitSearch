@@ -1,0 +1,175 @@
+h1, h2, h3, h4, h5, h6 {
+    font: 700 40px/1.2 Raleway, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin: 5px 0 5px;
+    color: #222;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family:  Roboto, sans-serif;
+}
+.bg-git{
+    background-image: url("img/bg-git.png");
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    color: #000;
+}
+.gitWrap{
+    background-color: #eeeeee;
+    margin: 0px;
+    color: #000;
+    border: 1px solid #3c3737;
+    box-shadow: 0 0 5px #3c3737;
+}
+.gitForm{
+    font-size: 13px;
+    padding: 20px;
+    background-color: #24292e;
+}
+.gitForm input{
+    background-color: hsla(0,0%,100%,.125);
+    border: 0;
+    box-shadow: none;
+    color: #fff;
+    min-height: 30px;
+    padding: 2px 14px;
+    font-size: 16px;
+    border-radius: 3px;
+    font-weight: 600;
+    box-sizing: border-box;
+}
+.gitInfo{
+    display: flex;
+}
+.gitInfo-right{
+
+}
+.gitInfo-right,
+.gitInfo-left{
+    padding: 15px;
+    text-align: left;
+}
+.gitInfo h3{
+    border-bottom: 1px solid #e1e4e8;
+    margin-bottom: 16px;
+    padding-bottom: 8px;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: none;
+    text-align: left;
+}
+.infoAbout{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.infoOut{
+    background-color: #fafbfc;
+    margin-right: 5px;
+    max-width: 100%;
+    width: 440px;
+    font-size: 14px;
+    border: 1px solid #d1d5da;
+    border-radius: 3px;
+    box-shadow: inset 0 1px 2px rgba(27,31,35,.075);
+    color: #24292e;
+    min-height: 34px;
+    outline: none;
+    padding: 6px 8px;
+    vertical-align: middle;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+.infoOut p{
+    margin: 0;
+}
+.gitInfo .userName{
+    font-size: 26px;
+    font-weight: 600;
+    margin: 0;
+}
+.gitInfo .userLogin{
+    color: #666;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    margin: 0;
+}
+.infoGroup{
+    margin-bottom: 15px;
+}
+.userAvatar{
+    max-width: 230px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.userAvatar img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.mainInfo{
+    padding: 16px 0;
+}
+.mainInfo > span{
+    display: block;
+    line-height: 1.3;
+}
+.dopInfo{
+    color: #6a737d;
+    font-size: 14px;
+}
+.vcard-details {
+    border-top: 1px solid #e1e4e8;
+    border-bottom: 1px solid #e1e4e8;
+    padding: 16px 0;
+}
+ul.vcard-details{
+    list-style: none;
+    padding-left: 0;
+}
+li.vcard-detail{
+    display: flex;
+    align-items: center;
+    padding: 3px 0;
+}
+li.vcard-detail img{
+    margin: 0;
+    height: auto;
+}
+li.vcard-detail .svgInfo{
+    width: 25px;
+    line-height: 1;
+    display: flex;
+}
+li.vcard-detail .svgInfo + *{
+    font-size: 14px;
+    line-height: 1;
+}
+#gitSvg{
+    color: #fff;
+    background-color: #006600;
+    fill: green;
+}
+.findGit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.findGit img{
+    margin-right: 10px;
+}
